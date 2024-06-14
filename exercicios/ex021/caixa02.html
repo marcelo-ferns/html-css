@@ -1,0 +1,120 @@
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Courier, monospace;
+            background-color: rgb(153, 180, 172);
+            margin: 0;
+        }
+
+        header {
+            background-color: rgb(81, 106, 129);
+            padding: 10px;
+            margin: 10px;
+            color: whitesmoke;
+        }
+
+        nav {
+            background-color: whitesmoke;
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.45);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(25, 57, 88);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        main {
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 16px 16px 0px 0px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.45);
+        }
+
+        section#assuntos > p {
+            text-align: center;
+            color: rgb(25, 57, 88);
+            font-weight: bolder;
+        }
+
+        article {
+            background-color: rgb(148, 179, 169);
+            padding: 5px;
+            text-align: justify;
+        }
+
+        article > aside {
+            text-align: right;
+        }
+
+        footer {
+            background-color: rgb(81, 106, 129);
+            color: beige;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        /* é possível tbm utilizar % p/ os valores de border-radius
+        
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: azure;
+            border-radius: 50%;
+
+        }
+            */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Fungal Biology | Microbiology | Plant Pathology</p>
+        </section>
+            
+
+        <section id="noticias">
+            <article>
+                <h1>Notícias sobre o Cusil</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis et ut provident aperiam nobis nam ipsam fugit voluptates quae! Illum eum facilis dicta voluptates officiis ut, magnam inventore eos sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptatum quo rerum doloremque, culpa aliquid tempore non nemo, possimus molestias ea quia voluptate fuga consequatur dolore temporibus eos nisi dignissimos!</p>
+                <aside>
+                    <p>Artigo escrito por Marcelo Farelo (desgraçado do kct)</p>
+                </aside>
+            </article>
+        </section>
+            
+            <article>
+
+            </article>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo corno desgraçado do Marcelo Farelo</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
